@@ -1,0 +1,10 @@
+What is a component?
+A component is a piece of reusable code that represents a part of a user interface
+
+What is export default?
+The export JavaScript keyword makes this function accessible outside of this file. The default keyword tells other files using your code that it’s the main function in your file.
+
+
+To collect data from multiple children, or to have two child components communicate with each other, declare the shared state in their parent component instead. The parent component can pass that state back down to the children via props. This keeps the child components in sync with each other and with their parent.
+
+In React, it’s conventional to use onSomething names for props which represent events and handleSomething for the function definitions which handle those events.

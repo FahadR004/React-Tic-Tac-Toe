@@ -1,0 +1,77 @@
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    background: #000;
+    color: white;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .square {
+    background: #000;
+    border: 2px solid #999;
+    color: white;
+    float: left;
+    font-size: 66px;
+    font-weight: bold;
+    line-height: 200px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  .status {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+ 
+
+  .info-button {
+      padding: 10px;
+      margin: 5px;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(47, 200, 238);
+  }
+
+  #info0 {
+    padding: 10px 8px;
+  }
+
+
+  
+  
